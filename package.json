@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-basic-express",
+  "version": "1.0.0",
+  "description": "basic express server just to teach docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "prod": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipelamarao98/nodejs-basic-express.git"
+  },
+  "author": "felipe lamarao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipelamarao98/nodejs-basic-express/issues"
+  },
+  "homepage": "https://github.com/felipelamarao98/nodejs-basic-express#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3"
+  }
+}
